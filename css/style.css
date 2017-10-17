@@ -41,9 +41,16 @@ p, h1, h2, h3, h4, h5, h6{
 	font-size: 16px;
 	color: #fff;
 	transition: border-bottom .2s ease-in , transform .2s ease-in-out;
+	border-bottom: 1px solid transparent;
+
 }
+
 .navbar-doublerow .navbar-down ul>li>a:hover{
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #fff !important;
+	color: #fff;
+}
+.afterscroll .navbar-down ul>li>a:hover{
+	border-bottom: 1px solid #000 !important;
 	color: #fff;
 }
 .navbar-doublerow .navbar-down .dropdown{
@@ -59,9 +66,13 @@ p, h1, h2, h3, h4, h5, h6{
 }	
 .navbar-doublerow.navbar-trans.afterscroll {
    top:-50px;
-   background-color: #8c6b6b;
+   background-color: #fff;
    /*color: white;*/
 }	
+
+.afterscroll .navbar-down .navbar-brand, .afterscroll .navbar-down  ul>li>a{
+	color: initial !important;
+}
 
 .flex-container {
     display: flex;
@@ -174,7 +185,8 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 .btn-black:hover{
-	background-color: rgba(245, 245, 187, 0.7);
+	background-color: #000;
+	color: #f5f5bb;
 }
 
 .noPadding{
@@ -237,7 +249,7 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 .footer{
-	background-color: #8c6b6b;
+	background-color: #3a3a3a;
 }
 
 .footer h3{
@@ -278,7 +290,7 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 .footer-bottom{
-	background-color: #654c4d;
+	background-color: #2d2b2b;
 	padding: 1% 10%;
 	color: #ffffd3;
 }
@@ -287,3 +299,78 @@ p, h1, h2, h3, h4, h5, h6{
 	padding-left: 20px;
 }
 
+.text-trio{
+	text-align: center;
+	height: 395px;
+}
+
+
+
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 20%;
+    height: 20%;
+    margin: 5px;
+    cursor: pointer;
+    /*border: 4px solid #CCC;*/
+    /*border-radius: 50px;*/
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 30%;
+    /*height: 40%;*/
+    /*border-radius: 100px;*/
+    /*border-color: #f33;*/
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+.carousel-indicators li {
+	border-radius: 0;
+}
