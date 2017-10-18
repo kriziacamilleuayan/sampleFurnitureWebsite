@@ -375,6 +375,15 @@ p, h1, h2, h3, h4, h5, h6{
 	border-radius: 0;
 }
 
+.share-links{
+	display: flex;
+	margin: 0 10% !important;
+}
+
+
+.link{
+	padding: 0 2% !important;
+}
 
 /*mobile*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -413,14 +422,8 @@ p, h1, h2, h3, h4, h5, h6{
 	.contact-image{
 		height: 500px;
 	}
-	.share-links{
-		display: flex;
-		margin: 0 10% !important;
-	}
 
-	.link{
-		padding: 0 2% !important;
-	}
+
 
 }
 
