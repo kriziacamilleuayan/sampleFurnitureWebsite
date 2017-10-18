@@ -423,7 +423,24 @@ p, h1, h2, h3, h4, h5, h6{
 		height: 500px;
 	}
 
+	.display-none-mobile{
+		display: none;
+	}
 
+	.row{
+		margin: 0 15px;
+	}
+	.noMargin{
+		margin: 0 !important;
+	}
+
+	.margin-carousel{
+		margin: 0 -2% 0 -2% !important;
+	}
+
+	.carousel-inner{
+		min-height: 200px;
+	}
 
 }
 
