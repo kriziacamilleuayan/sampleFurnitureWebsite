@@ -374,3 +374,53 @@ p, h1, h2, h3, h4, h5, h6{
 .carousel-indicators li {
 	border-radius: 0;
 }
+
+
+/*mobile*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.header-image{
+		height: 600px !important;
+		padding: 30% 0 !important;
+	}
+	.section2{
+		padding: 0 5%;
+	}
+	.section2 h3{
+		font-size: 18px;
+	}
+	.section2 h1, .section2 h4, .section2 .text-right{
+		margin-left: 0 !important;
+		text-align: center !important;
+	}
+	#spy{
+		margin-left: 0 !important;
+	}
+	.textOnImage { 
+	   position: absolute; 
+	   top: 25px; 
+	   left: 0; 
+	   padding: 2%;
+	   width: 100%; 
+	   text-align: center;
+	}
+	.textOnImage2 { 
+	   position: absolute; 
+	   top: 25px; 
+	   left: 0; 
+	   padding: 2%;
+	   width: 100%; 
+	}
+	.contact-image{
+		height: 500px;
+	}
+	.share-links{
+		display: flex;
+		margin: 0 10% !important;
+	}
+
+	.link{
+		padding: 0 2% !important;
+	}
+
+}
+
