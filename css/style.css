@@ -268,9 +268,10 @@ p, h1, h2, h3, h4, h5, h6{
 	background-color: #3a3a3a;
 }
 
-.footer h3{
+.footer h3, .footer h5, .footer h4{
 	color: #ffffd3;
 	padding-bottom: 10px;
+	letter-spacing: 2px;
 }
 
 .footer ul{
@@ -294,7 +295,7 @@ p, h1, h2, h3, h4, h5, h6{
 	font-size: 12px;
 }
 
-.footer p {
+.footer p, .footer dl {
 	color: #f3f3f3;
 	letter-spacing: 1px;
 	/*font-size: 12px;*/
@@ -460,6 +461,38 @@ p, h1, h2, h3, h4, h5, h6{
 	.header-text2{
 		font-size: 30px !important;
 		text-shadow: 2px 2px #000;
+	}
+
+	.header-text{
+		border-right: none !important;
+	}
+
+	.btn-brown, .btn-black{
+		font-size: 10px;
+	}
+
+	.box1, .box2{
+		margin: 5%;
+		padding: 5%;
+		text-align: center;
+		border-right: none;
+		border-left: none;
+	}
+
+	.button-center{
+		text-align: center;	
+	}
+
+	.text-header{
+		text-align: center;
+	}
+
+	.text-center-xs{
+		text-align: center;
+	}
+
+	.header-footer{
+		margin-top: 30px;
 	}
 
 }
