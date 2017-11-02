@@ -65,7 +65,7 @@ p, h1, h2, h3, h4, h5, h6{
 .navbar-doublerow.navbar-trans.afterscroll {
 }	
 .navbar-doublerow.navbar-trans.afterscroll {
-   top:-50px;
+   top:-60px;
    background-color: #fff;
    /*color: white;*/
 }	
@@ -135,6 +135,15 @@ p, h1, h2, h3, h4, h5, h6{
 	background-size: cover;
 	}
 
+.gallery-header-image{
+	/*background-image: url(https://homeblu.com/wp-content/uploads/2016/03/Modern-Bedroom-Furniture-Set.jpg);*/
+	background-color: #2d2b2b;
+	height: 150px;
+	padding: 10% 0 8% 0;
+	color: white;
+	background-size: cover;
+	}
+
 .header-text{
 	letter-spacing: 5px;
 	line-height: 2em;
@@ -144,6 +153,13 @@ p, h1, h2, h3, h4, h5, h6{
 .header-text2{
 	font-size: 40px !important;
 	text-shadow: 2px 2px #000;
+}
+
+.header2{
+	letter-spacing: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #f5f5bb;
 }
 
 .section2{
@@ -446,6 +462,9 @@ p, h1, h2, h3, h4, h5, h6{
 		text-shadow: 2px 2px #000;
 	}
 
-
 }
 
+
+.container2{
+	margin-top: 10%;
+}
