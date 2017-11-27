@@ -183,7 +183,7 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 .btn-brown{
-	background-color: transparent;
+	background-color: #3c353585;
 	border-radius: 0;
 	border: 3px solid #f5f5bb;
 	color: #f5f5bb;	
@@ -394,7 +394,7 @@ p, h1, h2, h3, h4, h5, h6{
 
 .share-links{
 	display: flex;
-	margin: 0 10% !important;
+	/*margin: 0 10% !important;*/
 }
 
 
@@ -404,8 +404,21 @@ p, h1, h2, h3, h4, h5, h6{
 
 /*mobile*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	h1{
+		font-size: 24px;
+	}
+	p{
+		font-size: 14px;
+	}
+	#spy h3{
+		font-size: 14px;
+	}
+	.box2, .box1{
+		margin-top: 0px !important;
+		padding-top: 0px !important;
+	}
 	.header-image{
-		height: 600px !important;
+		height: 500px !important;
 		padding: 30% 0 !important;
 	}
 	.section2{
@@ -493,6 +506,27 @@ p, h1, h2, h3, h4, h5, h6{
 
 	.header-footer{
 		margin-top: 30px;
+	}
+
+	.learn{
+		font-size: 12px;
+	}
+	.grayscale2{
+		filter: none;
+	}
+	.grayscale{
+		filter: none;
+	}
+
+	.details{
+		color: white !important;
+	    text-shadow: #080808 2px 2px 4px;
+	}
+	.contact-image{
+		visibility: hidden;
+	}
+	.form-contact{
+		padding: 0!important;
 	}
 
 }
