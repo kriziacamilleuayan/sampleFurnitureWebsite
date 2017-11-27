@@ -74,6 +74,7 @@ p, h1, h2, h3, h4, h5, h6{
 	color: initial !important;
 }
 
+
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -239,6 +240,8 @@ p, h1, h2, h3, h4, h5, h6{
 
 .text-header{
 	letter-spacing: 5px;
+	color: white;
+	filter: opacity(90%);
 }
 
 .box1{
@@ -402,6 +405,7 @@ p, h1, h2, h3, h4, h5, h6{
 	padding: 0 2% !important;
 }
 
+
 /*mobile*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	h1{
@@ -527,6 +531,31 @@ p, h1, h2, h3, h4, h5, h6{
 	}
 	.form-contact{
 		padding: 0!important;
+	}
+	.navbar-doublerow.navbar-trans.afterscroll2 {
+	   top:0px;
+	   background-color: #fff;
+	   /*color: white;*/
+	}	
+
+	.afterscroll2 .navbar-down .navbar-brand, .afterscroll2 .navbar-down  ul>li>a{
+		color: initial !important;
+	}
+	.section2 h3{
+		margin: 10px 0;
+	}
+	#quote-carousel{
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	.carousel-indicators{
+		bottom: -25px;
+	}
+	.adjust2{
+		text-align: center;
+	}
+	.text-header{
+		margin-top: 10px;
 	}
 
 }
